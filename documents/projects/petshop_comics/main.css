@@ -1,0 +1,233 @@
+
+
+
+header {
+    font-family: "short stack", "helvetica", "sans-serif";
+    text-align: center;
+    background-color: indianred;
+    border: none;
+    height: 2.5em;
+    max-width: 100%;
+    color: white;
+    font-weight: lighter;
+}
+
+#logo {
+    max-height: 2em;
+    float: left;
+    padding-top: .25em;
+    padding-left: .25em;
+        
+}
+
+
+
+
+.linkphotos {
+    position: relative;
+    max-width: 100%;
+    top: 0;
+    left: 0; 
+    
+    }
+
+
+
+.outlink {
+    max-height: 2em;
+    padding: 1em;
+        
+}
+
+
+
+#maindiv {
+    text-align: center;
+    margin-top: 5em;
+    padding: 1em
+}
+
+
+
+#secondiv {
+    text-align: center;
+}
+
+
+   
+
+h1 {
+    max-height: 1.5em;
+}
+
+
+
+
+
+#thetop {
+    max-height: 4em;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 4em;
+}
+
+#thor {
+    padding-top: 2em
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+span {
+    
+     
+}
+
+#whatsnew {
+    width: 100%;
+    position: relative;
+    
+}
+
+#wn {
+     z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+    top: 3em
+}
+
+h2 {
+   
+}
+
+#ue {
+   z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+    top: 3em;
+    text-align: center;
+}
+
+#cu {
+     z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+    top: 3em;
+    text-align: center;
+        
+}
+
+#upcoming {
+    width: 100%;
+    position: relative;
+}
+
+#callus {
+    width: 100%;
+    position: relative;
+}
+
+#wnking {
+    position: relative;
+    max-width: 100%;
+    opacity: .25;
+    top: 0;
+    left: 0; 
+}
+
+
+    
+
+#wnid {
+   
+    text-align: center;
+    
+    }
+
+#wndiv {
+    background-image: url(whatsnew.JPG);
+    color: white;
+     background-size: cover;
+    height: 6em;
+    opacity: .8;
+    margin-top: -1.4em;
+    line-height: 3;
+    
+}
+
+#condiv {
+    background-image: url(batphone.JPG);
+    background-color: black;
+    background-size: cover;
+    height: 7em;
+    opacity: .80;
+    margin-top: -1.4em;
+    line-height: 3;
+    max-width: 100%;
+    color: white;
+    
+}
+
+#conid {
+    text-align: center;
+}
+
+#uediv {
+    background-image: url(army.jpg);
+    background-color: black;
+    background-size: contain;
+    height: 7em;
+    opacity: .80;
+    margin-top: -1.4em;
+    line-height: 3;
+    color: white;
+    
+}
+
+#ueid {
+    text-align: center;
+}
+
+.pagedesc {
+    text-align: center;
+}
+
+#map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: ccc#
+}
+
+#contactinfo {
+    text-align: center;
+}
+
+
+
+
+
+#footerdiv {
+    background-image: url("footer.JPG");
+    background-size: contain;
+    opacity: .80;
+    height: 3em;
+    max-width: 100%;
+}
