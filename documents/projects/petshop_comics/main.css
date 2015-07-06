@@ -1,15 +1,14 @@
-
+html {
+     font-family: "short stack", "helvetica", "sans-serif";
+}
 
 
 header {
-    font-family: "short stack", "helvetica", "sans-serif";
     text-align: center;
-    background-color: indianred;
     border: none;
-    height: 2.5em;
     max-width: 100%;
-    color: white;
-    font-weight: lighter;
+
+    
 }
 
 #logo {
@@ -17,6 +16,8 @@ header {
     float: left;
     padding-top: .25em;
     padding-left: .25em;
+    display: block;
+    
         
 }
 
@@ -69,28 +70,16 @@ h1 {
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
     padding-top: 4em;
 }
 
-#thor {
-    padding-top: 2em
-}
+
 
 h4 {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-span {
-    
-     
-}
 
 #whatsnew {
     width: 100%;
@@ -104,13 +93,10 @@ span {
     color: white;
     font-size: 24px;
     font-weight: bold;
-    
+    text-shadow: 2px 2px 8px #000;
     top: 3em
 }
 
-h2 {
-   
-}
 
 #ue {
    z-index: 100;
@@ -118,7 +104,7 @@ h2 {
     color: white;
     font-size: 24px;
     font-weight: bold;
-    
+    text-shadow: 2px 2px 8px #000;
     top: 3em;
     text-align: center;
 }
@@ -129,7 +115,7 @@ h2 {
     color: white;
     font-size: 24px;
     font-weight: bold;
-    
+    text-shadow: 2px 2px 8px #000;
     top: 3em;
     text-align: center;
         
@@ -159,7 +145,7 @@ h2 {
 #wnid {
    
     text-align: center;
-    
+    text-shadow: 2px 2px 8px #000;
     }
 
 #wndiv {
@@ -204,6 +190,7 @@ h2 {
 
 #ueid {
     text-align: center;
+    text-shadow: 2px 2px 8px #000;
 }
 
 .pagedesc {
@@ -211,9 +198,13 @@ h2 {
 }
 
 #map-canvas {
-    width: 500px;
-    height: 400px;
-    background-color: ccc#
+    width: 50%;
+    height: 75%;
+    background-color: #ccc;
+    align-content:center;
+    margin-left:25%;
+    margin-right: 25%;
+        
 }
 
 #contactinfo {
@@ -223,11 +214,94 @@ h2 {
 
 
 
+html {
+    background-color: #f3f2e0;
+}
 
-#footerdiv {
-    background-image: url("footer.JPG");
+
+
+#cube {
+    max-height: 3em;
+    float: right;
+}
+
+#admin {
+   background-image: url(prizes.JPG);
+    background-color: black;
     background-size: contain;
-    opacity: .80;
-    height: 3em;
+    height: 7em;
+    opacity: .8;
+    margin-top: -1.4em;
+    line-height: 3;  
+    text-emphasis: bold;
+    
+}
+
+#adminPage {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 15px #f4eb0a;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#weeklyUpdate {
+    float: left;
+    width: 50%;
+    
+}
+
+#eventsUpdate {
+    margin-left: 50%;
+}
+
+#updates {
     max-width: 100%;
 }
+
+#top {
+    display: inline; 
+    text-align: center;
+}
+
+.dropdown {
+    postion: relative;
+}
+
+.drop-nav {
+    text-align: left;
+    
+        
+}
+
+ul li a {
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    padding: 1px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
