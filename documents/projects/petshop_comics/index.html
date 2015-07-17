@@ -2,65 +2,88 @@
 
 <html lang="en">
     <head>
-        <meta charset=utf-8>
-        <title>Pet Shop Comics</title>
-        <link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <meta charset=utf-8 >
+        <meta name="viewport" content="width=device-width, initial-scale=1">     
+        <title>Pet Shop Comics</title>                                         
+        <link rel="stylesheet" type="text/css" href=  "css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+                                              
     </head>
     
     <body>
         <header>
-         
-            <img src="petshopfrog.png" id="logo" class = "dropdown">       
-          
-           
-             <ul class = "drop-nav">
-                
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "whatsnew.html">What's New</a></li>
-                <li><a href = "upcoming.html">Upcoming Events</a></li>
-                <li><a href = "contact.html">Contact Us</a></li>
+        
+        <div class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="img/logo.PNG" id="logo">
+           </a>
+            
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">  
+                <li class="active" tabindex= "-1"><a href = "index.html">Home</a></li>
+                <li><a href = "whatsnew.html" tabindex= "-1">What's New</a></li>
+                <li><a href = "upcoming.html" tabindex= "-1">Upcoming Events</a></li>
+                <li><a href = "contact.html" tabindex= "-1">Contact Us</a></li>
              </ul> 
-              
-            
-        </header>
-       
-        <div>
-        <img src="thor2.JPG" class="linkphotos" id="thor" >
-        </div>
-        
-        <div id="whatsnew">
-        <a href="whatsnew.html"><img src="whatsnew.JPG" class="linkphotos"><h2 id="wn">WHAT'S NEW</h2></a>
-            
-        </div>
-        <div id="upcoming">
-        <a href="upcoming.html"><img src="army.JPG" class="linkphotos"><h2 id="ue">UPCOMING EVENTS</h2></a>
-        </div>
-        
-        <div id="callus">
-        <a href="contact.html"><img src="batphone.JPG" class="linkphotos"><h2 id="cu">CONTACT US</h2></a>
-        </div>
-        
-        <footer>
-            
-            <div id="maindiv">
-            <h4>EXPLORE YOUR WORLD</h4>
-            <a href = "https://www.dccomics.com/"><img src="dc.JPG" class="outlink"></a>
-            <img src="image.PNG" class="outlink">
-            <img src="marvel.JPG" class="outlink">
-            </div>   
-            <div id="secondiv">
-            <img src="heroscape.JPG" class="outlink">
-            <img src="workshop.JPG" class="outlink">
+            <h1 id="header">Pet Shop Comics</h1>
             </div> 
             
-            <a href="#top"><img src="thetop.jpg" id="thetop" alt="The Top"></a>
-            <a href ="admin.html"><img src="admincube.PNG" id ="cube"></a>
+          
+            
+        </header>
+       <div class="container-fluid">
+           <div class="row">
+               
+        <div class="col-md-8">
+        <img  width="100%" src="img/throgg.JPG" class="img-responsive">
+        </div>
+        
+               <div class="col-md-4">
+        <div>
+        <a href="whatsnew.html"><img width="100%" src="img/whatsnew.JPG" class="img-responsive image"><h2>WHAT'S NEW</h2></a>
+            
+        </div>
+        <div>
+        <a href="upcoming.html"><img  width="100%" src="img/army.JPG" class="img-responsive image"><h2>UPCOMING EVENTS</h2></a>
+        </div>
+        
+        <div>
+        <a href="contact.html"><img  width="100%" src="img/batphone.JPG" class="img-responsive image"><h2>CONTACT US</h2></a>
+        </div>
+               </div>
+           </div>
+           </div>
+        
+        <footer id="footer">
+            <div class="visible-xs-block visible-sm-block visible-md-block" >
+                <div class="text-center" id="linkdiv">
+                    <div>
+                        <h4>EXPLORE YOUR WORLD</h4>
+                        <a href = "https://www.dccomics.com/"><img src="img/dc.JPG" class="linkimg"></a>
+                        <a href="https://imagecomics.com"><img src="img/image.PNG" class="linkimg"></a>
+                        <a href="https://marvel.com/comics"><img src="img/marvel.JPG" class="linkimg"></a>
+                    </div>   
+                    <div>
+                        <a href="https://boardgamegeek.com/boardgamefamily/35/heroscape"><img src="img/heroscape.JPG" class="linkimg"></a>
+                        <a href="https://www.games-workshop.com/"><img src="img/workshop.JPG" class="linkimg"></a>
+                    </div> 
+                </div>
+                    <a href="#top"><img src="img/thetop.jpg" alt="The Top" class="linkimg"></a>
+                </div>
+            
+            <div class="text-center visible-lg-block">
+                <a href="https://boardgamegeek.com/boardgamefamily/35/heroscape"><img src="img/heroscape.JPG" class="linkimg2"></a>
+                <a href = "https://www.dccomics.com/"><img src="img/dc.JPG" class="linkimg2"></a>
+                <a href="https://imagecomics.com"><img src="img/image.PNG" class="linkimg2"></a>
+                <a href="https://marvel.com/comics"><img src="img/marvel.JPG" class="linkimg2"></a>
+                <a href="https://www.games-workshop.com/"><img src="img/workshop.JPG" class="linkimg2"></a>
+            </div>
         </footer>
                 
             
             
-            
-        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>   
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
         </body>
 </html>

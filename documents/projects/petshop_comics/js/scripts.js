@@ -1,7 +1,9 @@
+
+//googlemaps//
 function initialize() {
         var mapOptions = {
           center: { lat: 38.069441, lng: -85.669364},
-          zoom: 16,
+          zoom: 17,
           mapTypeId: google.maps.MapTypeId.SATELLITE
             
         };
@@ -15,3 +17,7 @@ function initialize() {
     });
       }
       google.maps.event.addDomListener(window, "load", initialize);
+
+
+//dropdown//
+$('.dropdown-toggle').dropdown()

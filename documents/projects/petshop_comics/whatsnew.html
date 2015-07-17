@@ -1,21 +1,46 @@
+<!doctype html>
+
 <html lang="en">
     <head>
-        <meta charset=utf-8>
-        <title>Pet Shop Comics</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <meta charset=utf-8 >
+        <meta name="viewport" content="width=device-width, initial-scale=1">     
+        <title>Pet Shop Comics</title>                                         
+        <link rel="stylesheet" type="text/css" href=  "css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+                                              
     </head>
     
     <body>
         <header>
-            
-            <a href="index.html"><img src="petshopfrog.png" id="logo" ></a>
-            <h1><a id="top">PSC</a></h1>
-        </header>
-        <div id="wndiv">        
-        <h1 id="wnid">WHAT'S NEW?</h1>
-        </div>
         
-        <h2 class="pagedesc">See what's new this week and build your pull list.</h2>
+        <div class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="img/logo.PNG" id="logo">
+           </a>
+            
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">  
+                <li tabindex= "-1"><a href = "index.html">Home</a></li>
+                <li  class="active"><a href = "whatsnew.html" tabindex= "-1">What's New</a></li>
+                <li><a href = "upcoming.html" tabindex= "-1">Upcoming Events</a></li>
+                <li><a href = "contact.html" tabindex= "-1">Contact Us</a></li>
+             </ul> 
+            <h1 id="header">Pet Shop Comics</h1>
+            </div> 
+            
+        </header>
+        
+        <div class="text-center">
+        <h1>See what's new this week and build your pull list.</h1>
+            
+                </div>
+        <div class="row">
+        <div class="col-lg-3" >
+            <img src="img/hal.jpg" class="img-responsive center-block" id="green">
+           
+        </div>
+        <div class="col-lg-6">
+            
         <div id ="date">
         </div>
         
@@ -23,35 +48,43 @@
              <h3>Attention PSC Comic Book Subscribers:</h3>
         </div>
         
-         <div id = "newComics" class = "newLists">
+         <div id = "newComics">
              <h3>Comics:</h3>
         </div>
         
-         <div id = "magazines" class = "newLists">
+         <div id = "magazines">
              <h3>Magazines:</h3>
 
         </div>
         
-         <div id = "trades" class = "newLists">
+         <div id = "trades">
              <h3>Graphic Novels and Hard Covers:</h3>
 
         </div>
         
-         <div id = "toys" class = "newLists">
+         <div id = "toys">
              <h3>Toys:</h3>
         </div>
         
-         <div id = "miscellaneous" class = "newLists">
+         <div id = "miscellaneous">
              <h3>Miscellaneous:</h3>
         </div>
         
-         <div id = "reorder" class = "newLists">
+         <div id = "reorder">
              <h3>Reorders/Replacements/Shorted:</h3>
         </div>
         
-         <div id = "specialOrders" class = "newLists">
+         <div id = "specialOrders">
              <h3>Special Orders:</h3><h4>Items in this area are preordered/prepaid</h4>
         </div>
+        </div>
+        <div class="col-lg-3">
+        </div>
+        </div>
+        <a href ="admin.html"><img src="/img/admincube.PNG" id="admincube" class="pull-right"></a>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src = "js/scripts.js"></script>
     </body>
 </html>
