@@ -28,7 +28,7 @@ h2 {
 .linkimg {
     max-height: 5em;
     padding: 5px;
-}
+    }
 
 
 
@@ -36,9 +36,8 @@ h2 {
     padding: 2em;
 }
 
-img {
-    border-radius: 5px;
-}
+
+
 .linkimg2 {
     max-height: 3em;
     padding-left: 2em;
@@ -75,8 +74,8 @@ img {
 
 
 #green {
-   padding: 1em;
- 
+    padding: 1em;    
+    border-radius: 20px;
 }
 
 textarea {
