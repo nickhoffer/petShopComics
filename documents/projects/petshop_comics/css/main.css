@@ -9,8 +9,8 @@
 #header {
     display: inline-block;
     vertical-align: middle;
-    float: none;    
-    }
+    float: none;  
+}
 
 .image {
     postition: relative;
@@ -23,6 +23,10 @@ h2 {
     margin-left: 1em;
     color: white;
     text-shadow: 2px 2px 4px #000;
+}
+
+h4 {
+    color: darkslategray;
 }
 
 .linkimg {
@@ -89,7 +93,17 @@ textarea {
 
 
 
-#dice {
+#dice, #dice2 {
     max-height: 4em;
-    margin-top: 2em;  
+    margin-top: 2em;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
+
+#content {
+    padding-top: 2px;
 }

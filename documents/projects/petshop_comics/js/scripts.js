@@ -21,3 +21,4 @@ function initialize() {
 
 //dropdown//
 $('.dropdown-toggle').dropdown()
+
